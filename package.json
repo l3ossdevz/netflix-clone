@@ -10,6 +10,7 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-redux": "^7.2.6",
+        "react-router-dom": "^6.2.1",
         "react-scripts": "5.0.0"
     },
     "scripts": {
@@ -18,8 +19,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "prettier": "prettier --write {**/*.{js,jsx,ts,tsx,json,css,scss,md},src/**/*.{js,jsx,ts,tsx,json,css,scss,md},test/**/*.{js,jsx,ts,tsx,json,css,scss,md}}",
-        "prettier:watch": "onchange {**/*.{js,jsx,ts,tsx,json,css,scss,md},src/**/*.{js,jsx,ts,tsx,json,css,scss,md},test/**/*.{js,jsx,ts,tsx,json,css,scss,md}} -- prettier --write {{changed}}"
+        "prettier": "prettier --write '{**/*.{js,jsx,ts,tsx,json,css,scss,md},src/**/*.{js,jsx,ts,tsx,json,css,scss,md},test/**/*.{js,jsx,ts,tsx,json,css,scss,md}}'",
+        "prettier:watch": "onchange '{**/*.{js,jsx,ts,tsx,json,css,scss,md},src/**/*.{js,jsx,ts,tsx,json,css,scss,md},test/**/*.{js,jsx,ts,tsx,json,css,scss,md}}' -- prettier --write {{changed}}"
     },
     "eslintConfig": {
         "extends": "react-app"
