@@ -23,7 +23,7 @@ function App() {
                         email: userAuth.email,
                     })
                 );
-                navigate("/profile");
+                navigate("/home");
             } else {
                 dispatch(logout());
                 navigate("/");

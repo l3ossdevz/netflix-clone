@@ -48,6 +48,7 @@ const SignupScreen = () => {
 
                 <h4>
                     <span className="signupScreen__gray"> New to Netflix?</span>
+                    &nbsp;
                     <span className="signupScreen__link" onClick={register}>
                         Sign up now.
                     </span>
