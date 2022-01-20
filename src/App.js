@@ -24,7 +24,7 @@ function App() {
                         email: userAuth.email,
                     })
                 );
-                navigate("/home");
+                navigate("/profile");
             } else {
                 dispatch(logout());
                 navigate("/");
