@@ -25,7 +25,8 @@ const ProfileScreen = () => {
                             <PlansScreen />
                             <button
                                 onClick={() => auth.signOut()}
-                                className="profileScreen__signOut">
+                                className="profileScreen__signOut"
+                            >
                                 Sign Out
                             </button>
                         </div>
