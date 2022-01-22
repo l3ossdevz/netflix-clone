@@ -83,7 +83,9 @@
 }
 
 .loginScreen__getStarted {
-    padding: 15.7px 20px;
+    padding: 16px 20px;
+    padding-top: 15.5px;
+    padding-bottom: 18px;
     font-size: 1rem;
     color: #fff;
     background-color: #e50914;
